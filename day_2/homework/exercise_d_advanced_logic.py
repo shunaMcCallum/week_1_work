@@ -3,19 +3,19 @@
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
-# for num in numbers:
-#     if num % 2 == 0:
-#         print(num)
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
 
 # 2. Print the difference between the largest and smallest value:
-# max_num = max(numbers)
-# min_num = min(numbers)
-# print(max_num - min_num)
+max_num = max(numbers)
+min_num = min(numbers)
+print(max_num - min_num)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-# for i in range(len(numbers) - 1):
-#     if numbers[i] == 2 and numbers[i+1] == 2:
-#         print("True")
+for i in range(len(numbers) - 1):
+    if numbers[i] == 2 and numbers[i+1] == 2:
+        print("True")
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
